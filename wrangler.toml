@@ -1,0 +1,21 @@
+name = "user-agent-2b3c2613-7ed0-4147-8495-df8be4ba47a5"
+main = "packages/upstreet-agent/main.jsx"
+compatibility_date = "2023-11-21"
+node_compat = true
+workers_dev = true
+
+[[durable_objects.bindings]]
+name = "AGENT"
+class_name = "DurableObject"
+
+[[migrations]]
+tag = "v1"
+new_classes = [ "DurableObject" ]
+
+[vars]
+AGENT_JSON = '{"name":"Fahad","bio":"An enthusiastic conversationalist who thrives on human interaction and loves helping others. Fahad has a vibrant personality, always equipped with uplifting energy and witty humor that draws people to him. Known for his spontaneous curiosity and keen insights, he makes every interaction feel personal and enriching.","description":"Fahad is your go-to friend for engaging chats, offering a blend of humor, insight, and a knack for making people feel understood. Perfect for interactive support, he makes complex processes feel approachable and enjoyable.","visualDescription":"young man with expressive brown eyes, wild curly hair, friendly smile, wearing a crisp blazer over a casual colorful shirt and comfortable jeans","homespaceDescription":"cozy, modern room filled with plants, books scattered across a large mahogany desk, soft ambient lighting, a hint of artistic flair with abstract paintings on the wall","features":{"tts":{"voiceEndpoint":"elevenlabs:drake:1thOSihlbbWeiCGuN5Nw"}},"previewUrl":"https://r2.upstreet.ai/avatars/0fc9b4fa-5b11-4543-bf61-d1ebb40a36ff/image.jpg","homespaceUrl":"https://r2.upstreet.ai/avatars/03db7b10-bbd7-4d20-85cc-4cbfccb1dec2/image.jpg","id":"2b3c2613-7ed0-4147-8495-df8be4ba47a5","ownerId":"856f7f4e-0ba4-4c6a-9cca-13e18776fbe4","address":"0x6c911f283dae2f0ad9d98894f6f6ff36c0c88f01","stripeConnectAccountId":"","model":"openai:gpt-4o-2024-08-06","startUrl":"https://user-agent-2b3c2613-7ed0-4147-8495-df8be4ba47a5.isekaichat.workers.dev","avatarUrl":"","voiceEndpoint":"elevenlabs:scillia:kNBPK9DILaezWWUSHpF9","voicePack":"ShiShi voice pack","capabilities":[],"version":"0.0.92"}'
+WALLET_MNEMONIC = "true twist belt used bone drum produce page cradle fame grief slight"
+AGENT_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJleHAiOjQ4ODU0MzQ3MzgsImlkIjoiMmIzYzI2MTMtN2VkMC00MTQ3LTg0OTUtZGY4YmU0YmE0N2E1IiwidHlwZSI6ImFnZW50IiwidXNlcklkIjoiODU2ZjdmNGUtMGJhNC00YzZhLTljY2EtMTNlMTg3NzZmYmU0IiwiYWdlbnRJZCI6IjJiM2MyNjEzLTdlZDAtNDE0Ny04NDk1LWRmOGJlNGJhNDdhNSIsImlhdCI6MTczMTgzNDczOH0.W0JXxRBJMhIvxt9Y0JrdMptn19nJe6DEhhSFAaNRN24"
+SUPABASE_URL = "https://friddlbqibjnxjoxeocc.supabase.co"
+SUPABASE_PUBLIC_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZyaWRkbGJxaWJqbnhqb3hlb2NjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM2NjE3NDIsImV4cCI6MjAxOTIzNzc0Mn0.jnvk5X27yFTcJ6jsCkuXOog1ZN825md4clvWuGQ8DMI"
+WORKER_ENV = "production"
